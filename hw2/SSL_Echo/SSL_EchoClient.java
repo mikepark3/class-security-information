@@ -8,7 +8,7 @@ public class SSL_EchoClient {
 	public static void main(String[] arstring) {
 		try {
 			SSLSocketFactory sslsocketfactory = (SSLSocketFactory) SSLSocketFactory.getDefault();
-			SSLSocket sslsocket = (SSLSocket) sslsocketfactory.createSocket("127.0.0.1", PORT_NUM);
+			SSLSocket sslsocket = (SSLSocket) sslsocketfactory.createSocket("192.168.0.60", PORT_NUM);
 			InputStream inputstream = System.in;
 			InputStreamReader inputstreamreader = new InputStreamReader(inputstream);
 			BufferedReader bufferedreader = new BufferedReader(inputstreamreader);

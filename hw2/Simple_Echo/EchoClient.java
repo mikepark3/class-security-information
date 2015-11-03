@@ -4,7 +4,7 @@ import java.net.*;
 public class EchoClient {
     public static void main(String[] args) throws IOException {
 
-        String serverHostname = new String ("127.0.0.1");
+        String serverHostname = new String ("192.168.0.60");
 
         if (args.length > 0)
            serverHostname = args[0];
